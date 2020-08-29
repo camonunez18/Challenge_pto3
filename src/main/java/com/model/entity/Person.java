@@ -17,9 +17,9 @@ public class Person {
     private String fullname;
 
     @Column(name ="birth")
-    private Date birth;
+    private String birth;
 
-    @Column(name = "created_")
+    @Column(name = "created")
     private Timestamp created;
 
     @Column(name = "updated")
