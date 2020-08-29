@@ -34,11 +34,9 @@ public class PersonTest {
 
     @Test
     public void TestBirth(){
-        long millis=System.currentTimeMillis();
-        Date date = new Date(millis);
-        person.setBirth(new Date(date.getTime()));
-        Date result = person.getBirth();
-        Assert.assertEquals(new Date(date.getTime()), result);
+        person.setBirth("2020/07/07");
+        String result = person.getBirth();
+        Assert.assertNotNull(result);
     }
 }
 
