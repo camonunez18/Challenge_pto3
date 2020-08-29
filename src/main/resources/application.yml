@@ -1,0 +1,6 @@
+api:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/spring_boot_db
+    username: postgres
+    password: 1234
+    maximum-pool-size: 30
